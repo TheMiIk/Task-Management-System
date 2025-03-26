@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "surname": "Doe",
+        "email": "john.doe@example.com",
+        "projects": [
+            {
+                "id": 1,
+                "name": "Testing AI Algorithms",
+                "description": "Test a diverse numbers of algorithms for AI",
+                "deadline": "2026-10-31T00:00:00",
+                "tasks": [
+                    {
+                        "id": 1,
+                        "name": "Testing the SMA* Algorithm ",
+                        "description": "Using SMA* to develop an AI",
+                        "priority": "3",
+                        "status": "in progress",
+                        "user_id": null,
+                        "_type": "DevTask",
+                        "language": "python"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Jane",
+        "surname": "Doe",
+        "email": "jane.doe@example.com",
+        "projects": [
+            {
+                "id": 2,
+                "name": "Nasa Launch System Upgrade",
+                "description": "Upgrades regarding the launch systems for rockets",
+                "deadline": "2030-03-17T00:00:00",
+                "tasks": [
+                    {
+                        "id": 1,
+                        "name": "Assuring the quality of rocket propulsion systems",
+                        "description": "Assuring the propulsion systems work as intended",
+                        "priority": "4",
+                        "status": "Not Started",
+                        "user_id": null,
+                        "_type": "QATask",
+                        "test_type": "Debugging"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "John",
+        "surname": "Lenon",
+        "email": "john.lenon@example.com",
+        "projects": [
+            {
+                "id": 3,
+                "name": "Game Devolopment using Unreal Engine",
+                "description": "Learn the game engine known as \"Unreal Engine\"",
+                "deadline": "2024-12-31T00:00:00",
+                "tasks": [
+                    {
+                        "id": 2,
+                        "name": "Documentation regarding Unreal Engine 5",
+                        "description": "Making use of the documentation present for the engine",
+                        "priority": "2",
+                        "status": "Not Started",
+                        "user_id": null,
+                        "_type": "DocTask",
+                        "document": "PDF"
+                    }
+                ]
+            }
+        ]
+    }
+]
